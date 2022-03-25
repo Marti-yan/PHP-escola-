@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Slide-1  Exercicio-2</title>
+    <style>
+        h3{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+            border: 1px solid rgb(0, 0, 0);
+            width: 350px;
+            padding: 10px;            
+        }      
+        input{
+            margin: 3px;
+            width: 50% ;
+        }
+        label{
+            display: inline-block;
+            text-align: center;
+            width: 40%;
+        }
+        .btn{
+            display: inline-block;
+            width: 30%;
+            margin: 5px 9%;
+        }
+    </style>
+</head>
+<body>
+    <form action="recebe2.php" method="post">
+        <h3> Cadastro Consulta Medica!</h3>
+        
+        <label for="Nome">Nome do paciente:</label>
+        <input type="text" name="nome" placeholder="Nome">
+        <br>
+        <label for="Data">Data da consulta:</label>
+        <input type="date" name="data" >
+        <br>
+        <label for="Medico">Medico:</label>
+        <input type="text" name="medico" placeholder="Medico">
+        <br>
+        <label for="Especialidade">Especialidade:</label>
+        <select name="especialidade" >
+            <option value="Dermatologista">Dermatologista</option>
+            <option value="Oncologista">Oncologista</option>
+            <option value="Dentista">Dentista</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar" class="btn">
+        <input type="reset" value="Apagar" class="btn">
+    </form>
+</body>
+</html>

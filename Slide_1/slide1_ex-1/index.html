@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Slide-1  Exercicio-1</title>
+</head>
+
+<body>
+    <form action="recebe1.php" method="post">
+        <hr>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite Seu Nome:">      
+        <hr>
+        <label for="Data_de_Nascimento">Data de Nascimento: </label>
+        <input type="date" name="Nasc" id="">
+        <hr>
+        <label for="Sexo">Sexo:</label>
+        <input type="radio" name="sexo" value="Homem">
+        <label for="sexo">Homem</label>
+        <input type="radio" name="sexo" value="Mulher">
+        <label for="sexo">Mulher</label>
+        <hr>
+        <label for="Escolaridade">Escolaridade: </label>
+        <select name="escolaridade">
+            <option value="Ensino Fundamental incompleto">Fundamental incompleto</option>
+            <option value="Ensino Fundamental completo">Fundamental completo</option>
+            <option value="Ensino Medio incompleto">Medio incompleto</option>
+            <option value="Ensino Medio completo" selected>Medio completo</option>
+            <option value="Ensino Superior incompleto">Superior incompleto</option>
+            <option value="Ensino Superior completo"> Superior completo</option>
+        </select>
+        <hr>
+        <input type="submit" value="Enviar!">
+        <input type="reset" value="Reset">
+        <hr>
+
+    </form>
+</body>
+
+</html>

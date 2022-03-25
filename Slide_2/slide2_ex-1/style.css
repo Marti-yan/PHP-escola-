@@ -1,0 +1,19 @@
+
+form {
+    width: 370px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: auto;
+}
+h3 {
+    text-align: center;
+}
+th {
+    text-align: right;
+}
+td {
+    text-align: left;
+}
+input {
+    margin: 4px;
+}

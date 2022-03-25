@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide-2  Exercicio-1</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+
+<body>
+
+    <main>
+    <form action="recebe4.php" method="get">
+        <h3>Formulario de Cadastro</h3>
+        <table>
+            <tr>
+                <th><label for="Nome do Dono">Dono do Pet:</label></th>
+                <td><input type="text" name="nome-dono" placeholder="Nome"></td>
+            </tr>
+            <tr>
+                <th><label for="contato">Tel Contato:</label></th>
+                <td><input type="text" name="contato" placeholder="Contato"></td>
+            </tr>
+            <tr>
+                <th><label for="Nome do animal">Nome do Animal:</label></th>
+                <td><input type="text" name="nome-animal" placeholder="Nome do Pet"></td>
+            </tr>
+            <tr>
+                <th><label for="Raça">Raça do pet: </label></th>
+                <td><select name="raca">
+                        <optgroup label="Cachorro:">
+                            <option value="Pit-Bull">Pit-Bull</option>
+                            <option value="Golden">Golden</option>
+                            <option value="Shih-tzu">Shih-tzu</option>
+                        </optgroup>
+                        <optgroup label="Outros:">
+                            <option value="Gato">gato</option>
+                            <option value="Hamister">Hamister</option>
+                        </optgroup>
+                    </select></td>
+            </tr>
+            <tr>
+                <th><label for="Data da consulta:">Data da consulta:</label></th>
+                <td><input type="date" name="data" placeholder="Data da consulta"></td>
+            </tr>
+            <tr>
+                <th><label for="Procedimento">Procedimento:</label></th>
+                <td><select name="procedimento">
+                        <option value="Banho">Banho</option>
+                        <option value="Tosa">Tosa</option>
+                        <option value="Vacina">Vacina</option>
+                        <option value="Vermifugaçao">Vermifugaçao</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th><label for="porte">Porte do animal:</label></th>
+                <td>
+                    <input type="radio" name="porte" value="Pequeno"> <label for="Pequeno">Pequeno</label>
+                    <input type="radio" name="porte" value="Medio"> <label for="Medio">Medio</label>
+                    <input type="radio" name="porte" value="Grande"> <label for="Grande">Grande</label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Enviar">
+    </form>
+</main>
+</body>
+
+</html>
